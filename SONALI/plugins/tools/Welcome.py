@@ -140,9 +140,9 @@ async def greet_group(_, member: ChatMemberUpdated):
 ┣ 𝟒 ➥ ᴅᴏɴᴛ sᴇɴᴅ ᴀᴅᴜʟᴛ sᴛᴜғғ
 ┗━━━━━━━━━━━━━━━━━      
 
-❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐊ʀɪsʜ 𝐌ᴜsɪᴄ](https://t.me/krishnetwork)
+❖𝐌ᴀᴅᴇ  𝐁ʏ [Tᴀᴍᴀɴɴᴀ 𝐌ᴜsɪᴄ](https://t.me/l_HEART_BEAT_l)
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ", url=f"https://t.me/syn_ixbot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ", url=f"https://t.me/TAMANNA_MUSIC_BOT?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
