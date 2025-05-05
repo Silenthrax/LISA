@@ -41,11 +41,11 @@ async def init():
     await userbot.start()
     await RAUSHAN.start()
     await RAUSHAN.decorators()
-    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐊ʀɪsʜɴᴇᴛᴡᴏʀᴋ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝗧𝗛𝗘 𝗨𝗡𝗢𝗙𝗙𝗖𝗜𝗔𝗟 𝗡𝗘𝗧𝗪𝗢𝗥𝗞  ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐊ʀɪsʜɴᴇᴛᴡᴏʀᴋ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝗧𝗛𝗘 𝗨𝗡𝗢𝗙𝗙𝗖𝗜𝗔𝗟 𝗡𝗘𝗧𝗪𝗢𝗥𝗞 ꪜ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
 
 if __name__ == "__main__":
