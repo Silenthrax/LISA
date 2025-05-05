@@ -1,9 +1,9 @@
 <p align="center"><a href="https://github.com/UFCMUSIC/ASSISTENT/blob/main/SONALI/assets/cookies.txt"> <img src="https://img.shields.io/badge/Add%20Your%20Cookies-blue?style=for-the-badge" width="220" height="38.45"/></a></p>
   
   <h2 align="center">
-    ──「 𝐒ᴏɴᴀʟɪ ダ ᴍᴜsɪᴄ 
+    ── ˹ 𝚻꯭ᴀᴍᴀᴎᴎᴀ ꭙ 𝚳꯭ᴜᴤᴉᴒ ˼ 
 <p align="center">
-  <img src="https://files.catbox.moe/hbkwsg.jpg">
+  <img src="https://files.catbox.moe/eysk9b.mp4">
 </p>
 
 <h3 align="center">
