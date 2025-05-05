@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","lx44kk")
+OWNER_USERNAME = getenv("OWNER_USERNAME","l_HEART_BEAT_l")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","syn_ixbot")
+BOT_USERNAME = getenv("BOT_USERNAME","TAMANNA_MUSIC_BOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7458057585))
+OWNER_ID = int(getenv("OWNER_ID", 8195333063))
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/xkrishmishra/sonali",
+    "https://github.com/UFCMUSIC/ASSISTENT",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/krishSUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/krishnetwork")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UFC_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_P_U_L_lI")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/fndjks.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/eysk9b.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/tlgikk.mp4"
+    "PING_IMG_URL", "https://files.catbox.moe/eysk9b.mp4"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/tlgikk.mp4"
-STATS_IMG_URL = "https://files.catbox.moe/tlgikk.mp4"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/eysk9b.mp4"
+STATS_IMG_URL = "https://files.catbox.moe/eysk9b.mp4"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/enaf5l.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/enaf5l.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/enaf5l.jpg"
