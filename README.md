@@ -3,7 +3,7 @@
   <h2 align="center">
     ── ˹ 𝚻꯭ᴀᴍᴀᴎᴎᴀ ꭙ 𝚳꯭ᴜᴤᴉᴒ ˼ 
 <p align="center">
-  <img src="https://files.catbox.moe/eysk9b.mp4">
+  <img src="https://files.catbox.moe/ruxbda.jpg">
 </p>
 
 <h3 align="center">
