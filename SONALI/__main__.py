@@ -20,8 +20,8 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(name).error(
-            "String session not filled. Please provide at least one Pyrogram V2 session string."
+        LOGGER(__name__).error(
+            "𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐥𝐥 𝐀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 V2 𝐒𝐞𝐬𝐬𝐢𝐨𝐧🤬"
         )
 
     await sudo()
@@ -32,32 +32,21 @@ async def init():
         users = await get_banned_users()
         for user_id in users:
             BANNED_USERS.add(user_id)
-    except Exception as e:
-        LOGGER(name).warning(f"Error loading banned users: {e}")
-
+    except:
+        pass
     await app.start()
-
     for all_module in ALL_MODULES:
-        try:
-            importlib.import_module(f"SONALI.plugins.{all_module}")
-        except Exception as e:
-            LOGGER("SONALI.plugins").error(f"Failed to load module {all_module}: {e}")
-
-    LOGGER("SONALI.plugins").info("All features loaded successfully.")
-
+        importlib.import_module("SONALI.plugins" + all_module)
+    LOGGER("SONALI.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await RAUSHAN.start()
     await RAUSHAN.decorators()
-
-    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ THE UNOFFICIAL NETWORK ♨️\n╚═════ஜ۩۞۩ஜ════╝")
-
+    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐊ʀɪsʜɴᴇᴛᴡᴏʀᴋ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
-
     await app.stop()
     await userbot.stop()
+    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐊ʀɪsʜɴᴇᴛᴡᴏʀᴋ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
-    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ THE UNOFFICIAL NETWORK ꪜ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
-
-if name == "main":
+if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(init())
