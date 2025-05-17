@@ -111,7 +111,7 @@ Admins only:
  ❍ /tmute <userhandle> x(m/h/d): mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
  ❍ /unmute <userhandle>: unmutes a user. Can also be used as a reply, muting the replied to user.
 __
-𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  -  Tᴀᴍᴀɴɴᴀ Bᴀɴ Tᴀᴍᴀɴɴᴀ Mᴜᴛᴇ Tᴀᴍᴀɴɴᴀ Pʀᴏᴍᴏᴛᴇ ..... 𝚎𝚝𝚌
+𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  -  Sɪʟᴇɴᴛʜʀᴀx Bᴀɴ Sɪʟᴇɴᴛʜʀᴀx Mᴜᴛᴇ Sɪʟᴇɴᴛʜʀᴀx Pʀᴏᴍᴏᴛᴇ ..... 𝚎𝚝𝚌
 '''
     HELP_Search = '''Sᴇᴀʀᴄʜ
 
