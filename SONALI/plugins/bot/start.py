@@ -151,7 +151,7 @@ async def welcome(client, message: Message):
                     await message.reply_text(
                         _["start_5"].format(
                             app.mention,
-                            f"https://t.me/TAMANNA_MUSIC_BOT?start=sudolist",
+                            f"https://t.me/LISA_UFC_BOT?start=sudolist",
                             config.SUPPORT_CHAT,
                         ),
                         disable_web_page_preview=True,
