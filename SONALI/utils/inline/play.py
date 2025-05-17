@@ -1,4 +1,4 @@
-import math
+8import math
 
 from pyrogram.types import InlineKeyboardButton
 
@@ -75,7 +75,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/SILENTTHRAX",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/SILENTHRAX",),
             InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/BESTIE_UNITE_CLUB",),
         ],
         [
@@ -99,7 +99,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/SILENTTHRAX",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/SILENTHRAX",),
             InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/BESTIE_UNITE_CLUB",),
         ],
         [
