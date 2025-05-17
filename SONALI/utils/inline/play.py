@@ -75,11 +75,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/l_HEART_BEAT_l",),
-            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/ll_P_U_L_lI",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/Silenthrax",),
+            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/Silenthrex",),
         ],
         [
-            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/TAMANNA_MUSIC_BOT?startgroup=true",),
+            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/LISA_UFC_BOT?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
@@ -99,11 +99,11 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/l_HEART_BEAT_l",),
-            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/ll_P_U_L_lI",),
+            InlineKeyboardButton(text="❍𝐎ᴡɴᴇʀ ❍", url="https://t.me/Silenthrax",),
+            InlineKeyboardButton(text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/Silenthrex",),
         ],
         [
-            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/TAMANNA_MUSIC_BOT?startgroup=true",),
+            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/LISA_UFC_BOT?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
