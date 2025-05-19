@@ -1,6 +1,6 @@
-from PURVIMUSIC.utils.mongo import db
+from SONALI.utils.mongo import filtersdb
 
-filters = db.filters["filters"] 
+filters = filtersdb
 
 async def add_filter_db(chat_id: int, filter_name: str, content: str, text: str, data_type: int):
    filter_data = await filters.find_one(
