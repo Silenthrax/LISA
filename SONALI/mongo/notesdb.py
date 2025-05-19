@@ -1,8 +1,6 @@
-from PURVIMUSIC.utils.mongo import db
+from SONALI.utils.mongo import notesdb
 
-#from PURVIMUSIC.mongo import *# back...............
-
-notes = db.notes["notes"]
+notes = notesdb
 
 
 async def SaveNote(chat_id, note_name, content, text, data_type):
